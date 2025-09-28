@@ -4,11 +4,11 @@
     <img src="assets/icon.png" alt="Logo" width="80" height="80">
   </a>
   <br>
-  {{ project_name }}
+  {{ cookiecutter.project_name }}
   <br>
 </h1>
 
-<h4 align="center">{{ description }}</h4>
+<h4 align="center">{{ cookiecutter.description }}</h4>
 
 ## How to use
 Steps to get started

@@ -4,19 +4,16 @@
     <img src="assets/icon.png" alt="Logo" width="80" height="80">
   </a>
   <br>
-  {{ project_name }}
+  Devops Project template
   <br>
 </h1>
 
-<h4 align="center">{{ description }}</h4>
+<h4 align="center">default template</h4>
 
 ## How to use
-Steps to get started
 
-1. Generate new logo at https://ray.so/icon
-1. Add values to terraform/yc.tfstate
-2. Init terraform state with command
+Run
 
 ```bash
-terraform init -backend-config=yc.auto.tfvars
+pipx run cookiecutter gh:m1xxos/project-template
 ```
